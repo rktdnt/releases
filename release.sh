@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy zip here
-gh auth login
+#gh auth login
 filename=$(ls *.zip)
 
 # Create a tag and release using the filename (without .zip extension)
